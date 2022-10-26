@@ -1,3 +1,5 @@
+#Estudo 1 - Estatística Básica
+
 #vetor 
 x <- c(2.2, 1.36, 10) 
 
