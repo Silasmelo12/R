@@ -1,16 +1,17 @@
-dadosseg<-USArrests
-dadosseg
-#calculando media
-mean(dadosseg$Murder)
+#vetor 
+x <- c(2.2, 1.36, 10) 
 
-#calculando mediana
-median(dadosseg$Assault)
+#calculando media 
+mean(x) 
 
-#Desvio Padrão
-sd(dadosseg$Rape)
+#calculando mediana 
+median(x) 
 
-# Separatrizes da variável
-quantile(dadosseg$Murder, probs = 0,75 )
-quantile(dadosseg$Assault, probs = 0.10 )
-quantile(dadosseg$UrbanPop , probs = 0,95 )
-summary(dadosseg)
+#Desvio Padrão 
+sd(x) 
+
+#soma de todos os valores 
+sum(x) 
+
+#tamanho do vetor. length 
+length(x)
